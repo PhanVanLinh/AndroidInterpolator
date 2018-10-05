@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/button_animate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animate"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="#e4e4e4"
+        >
+
+        <TextView
+            android:id="@+id/view_1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="#f00"
+            android:text="decelerate quad"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/view_2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:background="#f00"
+            android:text="decelerate cubic"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/view_3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:background="#f00"
+            android:text="decelerate quint"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/view_4"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:background="#f00"
+            android:text="accelerate_decelerate"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/view_5"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:background="#f00"
+            android:text="linear"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/view_6"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:background="#f00"
+            android:text="custom decelerate"
+            android:textSize="12sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
